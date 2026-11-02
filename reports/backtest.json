@@ -1,0 +1,48 @@
+{
+  "data": "synthetic (src/retailcast/simulate.py)",
+  "rows": 129600,
+  "series": 144,
+  "stockout_day_percent": 1.32,
+  "sales_understate_demand_percent": 1.07,
+  "folds": [
+    {
+      "start": "2026-06-12",
+      "model_wape": 32.223306667087265,
+      "seasonal_naive_wape": 48.857259366812045,
+      "p90_coverage": 86.01190476190477
+    },
+    {
+      "start": "2026-06-05",
+      "model_wape": 33.15628402130251,
+      "seasonal_naive_wape": 47.49994944375866,
+      "p90_coverage": 90.17857142857143
+    },
+    {
+      "start": "2026-05-29",
+      "model_wape": 32.28865029373317,
+      "seasonal_naive_wape": 47.00490139393534,
+      "p90_coverage": 89.18650793650794
+    },
+    {
+      "start": "2026-05-22",
+      "model_wape": 31.491114881315834,
+      "seasonal_naive_wape": 45.86153231349606,
+      "p90_coverage": 88.78968253968253
+    },
+    {
+      "start": "2026-05-15",
+      "model_wape": 30.07652399806412,
+      "seasonal_naive_wape": 45.666427094096875,
+      "p90_coverage": 88.88888888888889
+    },
+    {
+      "start": "2026-05-08",
+      "model_wape": 31.54592411587639,
+      "seasonal_naive_wape": 45.1367838528801,
+      "p90_coverage": 88.98809523809523
+    }
+  ],
+  "model_wape": 31.8,
+  "seasonal_naive_wape": 46.67,
+  "p90_coverage": 88.7
+}
