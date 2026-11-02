@@ -28,7 +28,7 @@ def test_lags_cannot_see_the_forecast_week(raw):
     week = changed["date"] > last - pd.Timedelta(days=7)
     changed.loc[week, "sales"] += 1000
     columns = ["lag_7", "lag_14", "lag_28", "mean_7", "mean_28"]
-    cutoff = last - pd.Timedelta(days=7)
+    last - pd.Timedelta(days=7)
     before = add_features(raw).query("date > @cutoff")[columns]
     after = add_features(changed).query("date > @cutoff")[columns]
     pd.testing.assert_frame_equal(before, after)
