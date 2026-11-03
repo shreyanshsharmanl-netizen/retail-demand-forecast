@@ -1,8 +1,6 @@
 # RetailCast: demand forecasting and reorder dashboard
 
-![CI](https://github.com/YOUR_USERNAME/retail-demand-forecast/actions/workflows/ci.yml/badge.svg)
-
-**[Live demo](https://YOUR_DEMO_URL)**
+![CI](https://github.com/shreyanshsharmanl-netizen/retail-demand-forecast/actions/workflows/ci.yml/badge.svg)
 
 A full-stack tool that forecasts seven days of demand per store and item, flags stockout risk, recommends order quantities and records orders.
 
